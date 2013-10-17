@@ -1,0 +1,25 @@
+{
+  "locals": {
+    "url": "http://danheberden.com",
+    "name": "Dan Heberden.com",
+    "owner": "Dan Heberden"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 8
+  }
+}
