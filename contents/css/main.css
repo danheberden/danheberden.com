@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 
 body {
   font-family: 'Lora', serif;
-  font-size:1.2em;
+  font-size:1em;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
 }
@@ -439,10 +439,6 @@ code.lang-markdown .bullet {
 }
 
 /* media queries */
-
-@media (min-width: 1600px) {
-  body { font-size: 26px; }
-}
 
 @media (max-width: 900px) {
   body { font-size: 18px; }
