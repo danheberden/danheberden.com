@@ -42,8 +42,7 @@ $.ajax({
 ```
 
 So, if you would rather trade in your shortcut for power, be explicit and have
-control, or just be part of the cool club - here's how to make .then work the
-way you want here's how to add the functionality yourself. I've been persuaded
+control, or just be part of the cool club - here's how to add the functionality yourself. I've been persuaded
 by Rebecca and Colin to not alter the functionality of an existing, documented
 method, but rather, add the additional functionally. Their point was simple: by
 changing the functionality of how something existing and documented operates to
