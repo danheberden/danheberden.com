@@ -27,8 +27,9 @@ block append footer
   div#disqus_thread
 
   script.
-    var disqus_shortname = '<danheberden>'; // Required - Replace example with your forum shortname
-    var disqus_url = '#{locals.url}/#{ page.filepath.relative.replace(/\/index\.md$/, '') }';
+    var disqus_shortname = 'danheberden'; // Required - Replace example with your forum shortname
+    var disqus_identifier = '#{locals.url}/#{ page.filepath.relative.replace(/\/index\.md$/, '') }/';
+    var disqus_url = '#{locals.url}/#{ page.filepath.relative.replace(/\/index\.md$/, '') }/';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
