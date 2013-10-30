@@ -20,6 +20,8 @@ html(lang='en')
           nav
             ul
               li
+                div.g-plusone(data-annotation='none')
+              li
                 a(href="/about") about
               li
                 a(href="/contact") contact
@@ -48,3 +50,9 @@ html(lang='en')
 
     ga('create', 'UA-21060460-1', 'danheberden.com');
     ga('send', 'pageview');
+
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
