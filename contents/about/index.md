@@ -4,10 +4,10 @@ template: article.jade
 title: About
 ---
 
-I work at [Bocoup](http://bocoup.com) as a "Open Web Community Developer". In short,
-I teach people how to write code \[properly\], organize conferences, and make sure
-the bocoup owned websites you know and love are there each and every second you want 
-them to be. I also [make things](http://github.com/danheberden).
+I work at [Bazaarvoice](http://bazaarvoice.com) as a Senior Front End Engineer. I
+work on their [Conversations](http://www.bazλrvoice.com/solutions/conversations/)
+product, which is an incredible adventure into third-party JavaScript. I also 
+[make things](http://github.com/danheberden).
 
 I also contribute as a board member of jQuery project. No fancy title there 
 unfortunately; I just do things to help jQuery stay a happy not-for-profit.
